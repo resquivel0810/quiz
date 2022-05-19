@@ -1,0 +1,41 @@
+.quizTitle {
+    text-align: center;
+}
+
+.question {
+    width: 750px;
+    margin: auto;
+    padding: 1em;
+    border-radius: .5em;
+    font-weight: bold;
+    font-size: large;
+}
+
+.answerContainer {
+    margin: 10px 0;
+}
+
+
+.answerContainer label {
+    display: inline-block;
+    width:50em;
+    background-color: #1B3D2F;
+    border-radius: 6px;
+    color: #FCFAE6;
+    font-weight: bold;
+    padding: 1em;
+    cursor: pointer;
+}
+  
+.answerContainerlabel:hover {
+    background-color: #FFFF67;
+}
+
+.answerContainer input[type=radio] {
+    display: none;
+}
+  
+.answerContainer input[type=radio]:checked ~ label {
+    background-color: #f1592a;
+    color: #1B3D2F
+}
